@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".TakeAttendance">
+<!--<ScrollView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:id="@+id/as"-->
+<!--    >-->
+<!--    -->
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:padding="15dp"
+        android:text="Take Attendance"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--</ScrollView>-->
+<!--    &lt;!&ndash;        <View&ndash;&gt;-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="3dp"-->
+<!--            android:background="@color/gray"-->
+<!--            android:layout_marginTop="528dp"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="382dp"
+        android:layout_height="536dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnsubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="SUBMIT"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:circularflow_defaultRadius="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:circularflow_radiusInDP="10dp"/>
+
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/CheckallPresent"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="end|center_vertical"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:background="@drawable/shodow"-->
+<!--        android:checked="true"-->
+<!--        android:drawableTint="@color/white"-->
+<!--        android:gravity="center_vertical|center_horizontal"-->
+<!--        android:layoutDirection="rtl"-->
+<!--        android:padding="10dp"-->
+<!--        android:scaleX="1.5"-->
+<!--        android:scaleY="1.5"-->
+<!--        android:text="Present"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="10sp"-->
+<!--        android:theme="@style/MyCheckboxStyle"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/recycler"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.12"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

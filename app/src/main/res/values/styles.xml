@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="MyCheckboxStyle">
+            <item name="colorControlNormal">@color/black</item>
+            <item name="colorAccent">@color/black</item>
+        </style>
+    <style name="WhiteDatePickerStyle" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:textColor">#FFFFFF</item> <!-- Set the text color to white -->
+    </style>
+
+</resources>

@@ -1,6 +1,4 @@
-# AttendenceSystem
-Android project
-# Attendance App Android Project
+# Attendance App 
 
 ## Project Overview
 

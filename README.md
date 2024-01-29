@@ -24,5 +24,5 @@ The Attendance App Android Project is a mobile application designed to simplify 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/attendance-app-android.git
+   git clone https://github.com/Saty-am02/AttendenceSystem.git
 
